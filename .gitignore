@@ -37,3 +37,6 @@ nosetests.xml
 
 # Ignore scrapy.cfg
 scrapy.cfg
+
+# Ignore JSON output
+.json
