@@ -5,7 +5,7 @@ from cl_jobs.items import ClJobsItem
 class MySpider(BaseSpider):
 	name = 'cljobs'
 	allowed_domains = ['craigslist.org']
-	start_urls = ['http://raleigh.craigslist.org/search/web?query=+']
+	start_urls = ['http://raleigh.craigslist.org/search/web?query=+', 'http://raleigh.craigslist.org/search/tch?query=+', 'http://raleigh.craigslist.org/cpg/']
 
 	def parse(self, response):
 		# hxs = HtmlXPathSelector(response)
